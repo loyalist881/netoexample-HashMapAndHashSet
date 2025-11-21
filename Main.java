@@ -59,12 +59,12 @@ public class Main {
                 int orderCost = pricePerKg * weight;
                 totalCost += orderCost;
                 uniqueCountries.add(country);
-                System.out.println("Стоимость доставки: " + orderCost + " у.е.");
-                System.out.println("Общая сумма всех доставок: " + totalCost + " у.е.");
+                System.out.println("Стоимость доставки: " + orderCost + " руб.");
+                System.out.println("Общая сумма всех доставок: " + totalCost + " руб.");
             }
             System.out.println();
         }
-        System.out.println("Итоговая сумма всех доставок: " + totalCost + " у.е.");
+        System.out.println("Итоговая сумма всех доставок: " + totalCost + " руб.");
         System.out.println("Доставки были оформлены в "
                 + uniqueCountries.size() + " уникальных стран(ы).");
     }
